@@ -18,8 +18,8 @@ export default function RootLayout({
     <html lang="fr" className={poppins.className}>
       <FirstRenderProvider>
         <VisibleSectionProvider>
-          <body 
-            className="pointer-events-none overflow-hidden text-white" 
+          <body
+            className="pointer-events-none overflow-hidden text-white"
             suppressHydrationWarning
             style={{ margin: 0, padding: 0 }}
           >
